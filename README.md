@@ -24,9 +24,9 @@ Download the correct binary from Releases and install it to your $PATH.
 Download PaperMC 1.18.1  
 `./paper-autoupdater.bin paper 1.18.1`  
 Download Velocity 3.1.1  
-`./paper-autoupdater.bin velocity 3.1.1`
-Download & run PaperMC 1.18.1
-`./paper-autoupdater.bin paper 1.18.1 && java -jar paper-1.18.1.jar`
+`./paper-autoupdater.bin velocity 3.1.1`  
+Download & run PaperMC 1.18.1  
+`./paper-autoupdater.bin paper 1.18.1 && java -jar paper-1.18.1.jar`  
 
 ### Auto update
 

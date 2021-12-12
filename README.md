@@ -6,9 +6,14 @@ Paper has made it very difficult to auto update servers, because they discourage
 But then you see, yesterday a log4j vunl in minecraft allowed RCE.  
 As long as you have a GOOD backup, IMO auto updates are fine.
 
+### TODO
+[X] Working version
+[ ] Docker container
+[ ] Bash script for auto update
+
 ### Installation
 
-Download the correct binary from Releases and install it to your $PATH.
+Download the correct binary from Releases and install it to your $PATH.  
 
 ### Running
 
@@ -17,7 +22,12 @@ Download the correct binary from Releases and install it to your $PATH.
 ### Examples  
 
 Download PaperMC 1.18.1  
-`./paper-autoupdater-linux-amd64 paper 1.18.1`  
+`./paper-autoupdater.bin paper 1.18.1`  
 Download Velocity 3.1.1  
-`./paper-autoupdater-linux-amd64 velocity 3.1.1`
+`./paper-autoupdater.bin velocity 3.1.1`
+Download & run PaperMC 1.18.1
+`./paper-autoupdater.bin paper 1.18.1 && java -jar paper-1.18.1.jar`
 
+### Auto update
+
+Recommended way is autorestarting server and having auto updater in script when server is restarted

@@ -7,9 +7,9 @@ But then you see, yesterday a log4j vunl in minecraft allowed RCE.
 As long as you have a GOOD backup, IMO auto updates are fine.
 
 ### TODO
-[X] Working version
-[ ] Docker container
-[ ] Bash script for auto update
+- [x] Working version
+- [ ] Docker container
+- [ ] Bash script for auto update
 
 ### Installation
 
